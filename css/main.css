@@ -1,0 +1,253 @@
+.container{
+    font-family: sans-serif;
+    width: 1040px;
+    margin: 0 auto;
+}
+.clearfix{
+    clear: both;
+}
+
+.main-header__logo{
+    display: inline-block;
+}
+
+.main-section__image{
+    float: right;
+}
+
+.main-header__logo img{
+    width: 150px;
+    padding-top: 30px;
+}
+.main-navigation{
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 24px;
+    text-transform: uppercase;
+    font-family: "Nerko One", cursive;
+    padding-bottom: 30px;
+}
+.main-navigation__item{
+    display: inline-block;
+    padding: 10px;
+}
+.main-navigation__item a{
+    text-decoration: none;
+    color: #000000;
+}
+.main-navigation__item a:hover{
+    color: #ff0000;
+}
+.main-section__info{
+    font-family: "Roboto", sans-serif;
+    display: inline;
+}
+
+.main-section__welcome{
+    color:#797979;
+    font-size: 21px;
+    letter-spacing: 4px;
+    margin-top: 100px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: "Kalam", cursive;
+    display: inline-block;
+    margin-bottom: 5px;
+}
+.main-section__introdaction{
+    font-size: 45px;
+    margin: 10px 10px 0px 0px;
+    display: inline-block;
+    color: #05364d;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-family: "Kalam", cursive;
+}
+.main-section__position{
+    text-transform: uppercase;
+    color: #05364d;
+    font-weight: lighter;
+    font-family: "Kalam", cursive;
+}
+.main-section__button{
+    border: none;
+}
+
+.main-section__button a{
+    font-size: 19px;
+    font-weight: 300;
+    font-family: "Roboto", sans-serif;
+    color: #fff;
+    text-decoration: none;
+}
+.main-section__social-medias a{
+    color:  #8fa1aa;
+    font-size: 20px;
+    display: inline-block;
+    margin-right: 16px;
+    cursor: pointer;
+    margin: 20px 16px 20px 0px;
+}
+.main-section__social-medias a i:hover{
+    color: #1c44e4;
+}
+
+/* State */
+#state__section{
+    text-align: center;  
+    font-size: 20px;
+}
+
+.statics{
+    text-align: center;
+    margin: 0px 10px 10px 0px;
+    padding: 0;
+    font-family: sans-serif;
+    display: inline-block;
+}
+.statics h1{
+    color: #1c44e4;
+    display: inline;
+}
+.statics p{
+    color: #797979;
+    display: inline-block;
+    margin: 10px 10px 10px 10px;
+    font-size: 15px;
+}
+.Statics1, .Statics2, .Statics3{
+    background-color: #f8faff;
+    display: inline-block;
+    letter-spacing: 1px;
+    margin: 100px 50px ;
+}
+
+.about-me__image{
+    float: left;
+}
+.about-me__image img{
+    width: 90%;
+}
+.section-subtitle{
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #797979;
+    display: inline-block;
+}
+
+.section-title{
+    color: #05364d;
+    font-weight: 800;
+    text-transform: capitalize;
+    margin-top: 5px;
+    font-size: 42px;
+}
+
+.about-me__description{
+    color: #797979;
+    font-weight: 300;
+    line-height: 27px;
+    font-size: 18px;
+}
+
+.button{
+    background-color: #1c44e4;
+    border-radius: 5px;
+    padding: 12px;
+    margin: 20px 30px 0px 0px;
+    border: none;
+    color: #fff;
+    font-size: 18px;
+}
+
+.blur-line{
+    display: inline-block;
+    color: rgba(237,35,159,0.6);
+    width: 80px;
+    height: 4px;
+    margin-left: 5px;
+    filter: blur(4px);
+    border-radius: 4px;
+}
+
+/* Services section */
+.services{
+    padding-top: 100px;
+}
+.service-card{
+    display: inline-block;
+    width: 30%;
+    margin-right: 3%;
+    padding: 60px 30px;
+    background-color: #F8FAFF;
+    text-align: center;
+    box-sizing: border-box;
+}
+.service-card__title{
+    color: #05364D;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+.service-card__description{
+    line-height: 27px;
+    font-size: 13px;
+    font-weight: 300;
+    color: #797979;
+}
+.service-card__link{
+    font-size: 13px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #05364D;
+    text-decoration: none;
+}
+
+.service-card:hover{
+    background-color: #5f30ff;
+}
+.service-card:hover .service-card__title,
+.service-card:hover .service-card__description,
+.service-card:hover .service-card__link{
+    color: #fff;
+}
+
+
+
+
+
+
+
+/* Footer */
+.footer-section{
+    background-color: #141414;
+}
+.footer-navigation__item a{
+    color: #fff;
+    text-decoration: none;
+}
+.footer-navigation{
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 24px;
+    text-transform: uppercase;
+    font-family: "Nerko One", cursive;
+    padding-bottom: 30px;
+}
+.footer-navigation__item{
+    display: inline-block;
+    padding: 10px;
+}
+.footer-navigation__item a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+.footer-navigation__item a:hover{
+    color: #ff0000;
+}
+.footer-section{
+    margin-top: 100px;
+}
