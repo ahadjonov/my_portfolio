@@ -141,6 +141,7 @@
     color: #05364d;
     font-weight: 800;
     text-transform: capitalize;
+    display: inline-block;
     margin-top: 5px;
     font-size: 42px;
 }
@@ -164,10 +165,10 @@
 
 .blur-line{
     display: inline-block;
-    color: rgba(237,35,159,0.6);
+    color: rgba(237, 35, 35, 0.6);
     width: 80px;
     height: 4px;
-    margin-left: 5px;
+    margin-left: 7px;
     filter: blur(4px);
     border-radius: 4px;
 }
@@ -250,4 +251,36 @@
 }
 .footer-section{
     margin-top: 100px;
+}
+.section-resume-hr{
+    margin-inline-end: 100px;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 3px;
+    overflow: visible;
+    color: #000000;
+}
+.resume-title{
+    font-size: 30px;
+    color: #05360D;
+}
+.resume-subtitle{
+    color: rgb(92, 184, 0);
+}
+
+.resume-frontend-info{
+    line-height: 15px;
+}
+.resume-skills{
+    display: inline-block;
+    margin: 15px;
+    margin-left: 0px;
+}
+.resume-skills-info{
+    line-height: 22px;
+}
+.resume-info{
+    font-size: 16px;
+    font-family: sans-serif;
+    letter-spacing: 0.5px;
 }
