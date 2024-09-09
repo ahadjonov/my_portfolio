@@ -26,18 +26,20 @@
 }
 .main-header{
     position: fixed;
-    background-color: #fff;
     top: 0px;
     content: normal;
     display: inline-block;
     margin-bottom: 100px;
-    box-shadow: 0px 3px 16px 0px rgb(0 0 0 / 10%);
+    backdrop-filter: blur(80px);
+    box-shadow: 0px 0px 30px rgb(227, 228, 237);
+    border: 2px solid rgba(255, 255, 255, 0.18);
     width: 100%;
     left: 0px;
     text-align: center;
 }
 .navigation-contact{
     background-color: #8034C3;
+    margin-top: 100px;
 }
 .navigation-contact nav ul li a{
     color: #fff;
@@ -296,6 +298,25 @@
 .footer-section{
     margin-top: 100px;
 }
+.footer-mine-info{
+    color: #ddd;
+    letter-spacing: 1px;
+    position: relative;
+    left: 30px;
+}
+.footer-mine-info a{
+    color: #ddd;
+    text-decoration: none;
+    letter-spacing: 1px;
+    position: relative;
+    left: 10px;
+}
+.footer-text{
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    transition: ease-in-out 0.3s;
+}
 .section-resume-hr{
     margin-inline-end: 100px;
     border-width: 2px;
@@ -383,4 +404,4 @@
 .contac-page-icons img{
     height: 40px;
     width: 40px;
-}
+} 
