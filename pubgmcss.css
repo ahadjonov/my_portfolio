@@ -1,5 +1,14 @@
+.container{
+    font-family: sans-serif;
+    width: auto;
+    margin: 0 auto;
+}
 body{
     margin: 0px;
+    background: url(images/bg.jpg);
+    background-position: center;
+    background-size: cover;
+    min-height: 890px;
 }
 *{
     color: #fff;
@@ -41,9 +50,9 @@ body{
     padding: 20px;
 }
 .nav1{
-    display: inline-block;
+    display: block;
     background-color: rgb(72, 72, 72);
-    width: 1519px;
+    width: auto;
     text-align: center;
 }.nav1 h4{
     display: inline-block;
@@ -63,14 +72,14 @@ body{
     background-color: #e08300cf;
     padding: 10px 100px;
     position: relative;
-    bottom : 700px;
+    bottom : -160px;
     left: 400px;
 }
 .console{
     background-color: #ffffffcf;
     padding: 10px 100px;
     position: relative;
-    bottom : 700px;
+    bottom : -160px;
     left: 400px;
 }
 .main-header{
@@ -81,6 +90,25 @@ body{
     border-radius: 20px;
     padding: 100px 200px;
     position: relative;
-    bottom : 500px;
+    bottom : -360px;
     left: -290px;
+}
+.black-bg{
+    background-color: #000;
+    width: auto;
+    height: 80px;
+    position: relative;
+    top: 700px;
+    text-align: end;
+}
+.black-bg .img1{
+    width: 40px;
+    margin: 10px;
+    margin-right: 50px;
+}
+.black-bg .img2{
+    width: 59px;
+    margin: 10px;
+    margin-right: 50px;
+    margin-top: 20px;
 }

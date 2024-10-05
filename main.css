@@ -25,6 +25,7 @@
 }
 .main-header{
     position: fixed;
+    font-family: sans-serif;
     top: 0px;
     content: normal;
     display: inline-block;
@@ -410,4 +411,28 @@
 .contac-page-icons img{
     height: 40px;
     width: 40px;
-} 
+}
+.portfolio-main-section-header{
+    position: relative;
+    top: 150px;
+    display: inline;
+    left: auto;
+}
+.portfolio-main-section-header a{
+    display: inline;
+    font-family: cursive;
+    text-decoration: none;
+    color: #000000;
+    margin: 150px;
+    font-size: 19px;
+}
+.portfolio-main-section-header h2{
+    display: inline;
+    font-family: cursive;
+    margin: 100px;
+    text-decoration: none;
+    color: #000;
+}
+.portfolio-main-section-header li{
+    margin-top: 10px;
+}
