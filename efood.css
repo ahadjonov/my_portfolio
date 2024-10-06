@@ -1,0 +1,79 @@
+.container{
+    width: 1440px;
+    margin: 0 auto;
+}
+* {
+    padding: 0;
+    margin: 0px 30px;
+    box-sizing: border-box;
+    color: inherit;
+    list-style: none;
+    text-decoration: none;
+    font-family: "Rubik", system-ui;
+}
+.btn{
+    padding: 10px 20px;
+    background-color: #FF7A50;
+    border-radius: 5px;
+    color: #fff;
+}
+.nav-nav h4{
+    display: inline;
+    margin: 0px 30px;
+}
+.nav-header{
+    text-align: start;
+    font-weight: 500;
+    margin: 10px 100px;
+    display: inline;
+}
+.nav-nav{
+    text-align: end;
+    margin-top: 0px;
+    display: inline;
+    position: relative;
+    left: 700px;
+    bottom: 10px;
+}
+.efood-navbar-section{
+    margin-top: 10px;
+}
+.nav-nav h4:hover{
+    color: #FF7A50;
+    cursor: pointer;
+}
+span{
+    margin: 0px;
+    margin-top: 100px;
+    color: #FF6838;
+}
+h4{
+    display: inline;
+}
+.main-section-header{
+    text-transform: capitalize;
+    font-weight: 700;
+    color: #363853;
+    line-height: 55px;
+    width: 500px;
+    font-size: 50px;
+    margin-left: 55px;
+    margin-bottom: 20px;
+    margin-top: 100px;
+}
+p{
+    color: #363853;
+    font-weight: 400;
+    width: 400px;
+    font-size: 16px;
+    margin-left: 55px;
+    margin-bottom: 50px;
+}
+.main-button{
+    margin-left: 55px;
+}
+.efood-img1{
+    float: right;
+    width: 600px;
+    margin-bottom: 100px;
+}

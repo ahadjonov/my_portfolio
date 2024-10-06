@@ -1,6 +1,6 @@
 .container{
     font-family: sans-serif;
-    width: auto;
+    width:  auto;
     margin: 0 auto;
 }
 body{
@@ -76,11 +76,12 @@ body{
     left: 400px;
 }
 .console{
-    background-color: #ffffffcf;
+    background-color: #000000cf;
     padding: 10px 100px;
     position: relative;
     bottom : -160px;
     left: 400px;
+    color: #fff;
 }
 .main-header{
     color: #ffffffdf;
