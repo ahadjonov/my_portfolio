@@ -16,14 +16,35 @@
 }
 *::selection{
     background-color: #ddd;
-    color: #181313;
+}
+@keyframes slow-text{
+    from{color: #000;} 
+    to{color: #FF6838;}   
+}
+@keyframes btn{
+    from{
+        background-color: #FF7A50;   
+        background-color: #FF7A50;
+    }
+    to{
+        background-color: #edae49;
+        box-shadow: 4px 5px 10px #edae49;
+    }
 }
 .btn{
-    padding: 10px 20px;
     background-color: #FF7A50;
+    padding: 10px 20px;
     border-radius: 5px;
     color: #fff;
     box-shadow: 4px 5px 10px #FF7A50;
+}
+.btn:hover{
+    color: #fcfef8;
+    animation: btn 1s both;
+}
+.btn:active{
+    background-color: #edae49d7;
+    color: #fff;
 }
 .nav-nav h4{
     display: inline;
@@ -47,8 +68,10 @@
     margin-top: 10px;
 }
 .nav-nav h4:hover{
-    color: #FF7A50;
     cursor: pointer;
+    animation-name: slow-text;
+    animation-duration: 0.5s;
+    animation-fill-mode: both;
 }
 span{
     margin: 0px;
@@ -111,4 +134,7 @@ p{
 .section2-button{
     border-radius: 20px 20px 1px 20px;
     margin-left: 50px;
+}
+a::selection{
+    background-color: #363853;
 }
