@@ -1,5 +1,5 @@
 .container{
-    width: 1440px;
+    width: 1440px auto;
     margin: 0 auto;
 }
 .clear{
@@ -82,9 +82,11 @@ p{
     margin-bottom: 100px;
 }
 .efood-img2{
-    float: left;
+    position: relative;
+    right: 100px;
     width: 600px;
     margin-bottom: 100px;
+
 }
 .main-section-header2{
     text-transform: capitalize;
@@ -94,6 +96,15 @@ p{
     width: 500px;
     font-size: 36px;
     margin-left: 55px;
-    margin-bottom: 20px;
+    margin-bottom: 100px;
     margin-top: 100px;
+}
+.efood-section2 div{
+    position: relative;
+    left: 600px;
+    bottom: 800px;
+}
+.section2-button{
+    border-radius: 20px 20px 1px 20px;
+    margin-left: 50px;
 }
