@@ -17,9 +17,37 @@
 *::selection{
     background-color: #ddd;
 }
+.box-mover{
+    width: 100px;
+    cursor: pointer;
+    left: 500px;
+    position: relative;
+    animation: box-mover 11s infinite backwards linear alternate;    background-color: #FF7A50;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: #fff;
+    box-shadow: 4px 5px 10px #FF7A50;
+    display: inline-block;
+    margin: 10px;
+    }
+    .box-mover:hover{
+        animation-play-state: paused;
+    }
+    @keyframes box-mover{
+    0%{
+        top: 0; 
+        left: 0;
+    }
+    100%{
+        top: 0;
+        left: 1100px;
+    }
+}
 @keyframes slow-text{
     from{color: #000;} 
-    to{color: #FF6838;}   
+    to{color: #FF6838;
+        text-shadow: 5px 5px 30px#FF6838;
+    }  
 }
 @keyframes btn{
     from{

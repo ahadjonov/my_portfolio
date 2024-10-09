@@ -3,6 +3,11 @@
     width: 1040px;
     margin: 0 auto;
 }
+/* @media only screen and (min-width:600px){
+    .button{
+        background-color: #fff;
+    }
+} */
 * {
     margin: 0;
     padding: 0;
@@ -73,6 +78,8 @@
 }
 .main-navigation__item a:hover{
     color: #ff0000;
+    transition-duration: 1s;
+    transition-timing-function: cubic-bezier(0, 0, 0.18, 1.48);
 }
 .main-section__info{
     font-family: "Roboto", sans-serif;
@@ -190,7 +197,6 @@
 
 .button{
     background: linear-gradient(to left, rgb(255, 0, 128), blue);
-    border-radius: 5px;
     padding: 10px 30px;
     margin: 20px 30px 0px 0px;
     border: 1px solid;
@@ -200,8 +206,10 @@
     border-radius: 20px;
 }
 .button:hover {
-    background-color: #000000;
-    border: 1px solid rgba(255, 105, 105, 0.775);   
+    background: linear-gradient(to right, rgb(255, 0, 128), blue);
+    rotate: -360deg;
+    transition-duration: 2s;
+    transition-timing-function: cubic-bezier(0, 0, 0.18, 1.48);
 }
 .button:active{
     background-color: #000000b0;
@@ -253,11 +261,15 @@
 
 .service-card:hover{
     background-color: #5f30ff;
+    transition-timing-function: cubic-bezier(0, 0, 0.18, 1.48);
+    transition-duration: 1s;
 }
 .service-card:hover .service-card__title,
 .service-card:hover .service-card__description,
 .service-card:hover .service-card__link{
     color: #edecec;
+    transition-timing-function: cubic-bezier(0, 0, 0.18, 1.48);
+    transition-duration: 1s;
 }
 
 
