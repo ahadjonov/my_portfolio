@@ -206,9 +206,8 @@
     border-radius: 20px;
 }
 .button:hover {
-    background: linear-gradient(to right, rgb(255, 0, 128), blue);
-    rotate: -360deg;
-    transition-duration: 2s;
+    box-shadow: 2px 2px 2px black;
+    transition-duration: 0.5s;
     transition-timing-function: cubic-bezier(0, 0, 0.18, 1.48);
 }
 .button:active{
