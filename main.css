@@ -208,6 +208,7 @@
 .button:hover {
     box-shadow: 2px 2px 2px black;
     transition-duration: 0.5s;
+    border: 1px solid #000;
     transition-timing-function: cubic-bezier(0, 0, 0.18, 1.48);
 }
 .button:active{
