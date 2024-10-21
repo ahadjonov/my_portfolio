@@ -11,7 +11,11 @@
 * {
     margin: 0;
     padding: 0;
-  }
+}
+*::selection{
+    background-color: #ddd;
+    color: #191919;
+}
 .clearfix{
     clear: both;
 }
