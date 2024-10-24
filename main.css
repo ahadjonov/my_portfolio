@@ -210,10 +210,9 @@
     border-radius: 20px;
 }
 .button:hover {
-    box-shadow: 2px 2px 2px black;
-    transition-duration: 0.5s;
-    border: 1px solid #000;
+    background: linear-gradient(90deg, rgb(255, 0, 128), blue);
     transition-timing-function: cubic-bezier(0, 0, 0.18, 1.48);
+    transition-duration: 10s;
 }
 .button:active{
     background-color: #000000b0;
